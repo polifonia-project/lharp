@@ -71,7 +71,12 @@ The harmonic network also provides features for the exploration of the graph; a 
 
 # Setup
 
-TODO: Requirements, conda env + script for the setup
+All required packages and dependencies are listed in the ``requirements.txt`` file. To setup your environment, just create a new virtualenv or conda environment from your local system, clone this repository, and install all dependencies by running the following command.
+```
+git clone https://github.com/polifonia-project/lharp.git && cd lharp
+pip install -r ./requirements.txt
+```
+You are ready to use LHARP, please check the documentation, and our examples/demos.
 
 
 # Attribution
