@@ -69,13 +69,20 @@ Instead, nodes are sized according to their degree -- the number of connections/
 A distinct border colour also differentiate nodes according to the music dataset they come from.
 The harmonic network also provides features for the exploration of the graph; a demo LIVE version can be found [at this link](https://polifonia-project.github.io/musilar-preview/).
 
-# Setup and examples
+# Setup, data, and examples
 
 All required packages and dependencies are listed in the ``requirements.txt`` file. To setup your environment, just create a new virtualenv or conda environment from your local system, clone this repository, and install all dependencies by running the following command.
 ```
 git clone https://github.com/polifonia-project/lharp.git && cd lharp
 pip install -r ./requirements.txt
 ```
+## Getting chord datasets
+To replicate our experiments, or simply to compare the chord progressions in the current version of the harmonic network with those of your own collection, you first need to clone our dataset repository (run the command below).
+```
+cd .. && git clone https://github.com/polifonia-project/datasets.git
+```
+
+## How to use LHARP
 You are now ready to use LHARP. Please check our [demo notebook](https://github.com/polifonia-project/lharp/blob/6f1f6e21d900cca549c82d637fa4317e8633bea1/demo_example.ipynb) for an example run. We have also implemented a documented API where each function corresponds to one of the main steps for the computation of the harmonic similarity (see the diagram above). These functions can be found [at this link](https://github.com/polifonia-project/lharp/blob/0f87f95fa04f94537b23be3b5bfeacb24cc63cd2/src/lharp_api.py) and they also allow to compute LHARP among tracks in a given collection (``harmonic_similarity_intra``) and against those tracks we used for our experiments (``harmonic_similarity_inter``).
 
 
