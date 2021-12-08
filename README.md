@@ -11,7 +11,7 @@ keywords:
   - patterns
   - chords
 changelog: n/a.
-licence: MIT
+licence: CC-BY-NC 4.0
 release link: n/a.
 image: n/a.
 logo: n/a.
