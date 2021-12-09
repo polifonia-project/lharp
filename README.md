@@ -88,6 +88,8 @@ You are now ready to use LHARP. Please check our [demo notebook](https://github.
 
 # Attribution
 
+[![DOI](https://zenodo.org/badge/436261336.svg)](https://zenodo.org/badge/latestdoi/436261336)
+
 Please, cite this paper if you use the code in this repository as part of a published research project:
 
 ```
