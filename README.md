@@ -16,17 +16,15 @@ release link: n/a.
 image: n/a.
 logo: n/a.
 demo: https://polifonia-project.github.io/musilar-preview/
-links: 
-  - https://polifonia-project.github.io/musilar-preview/
-running-instance: n/a.
+links: https://polifonia-project.github.io/musilar-preview/
+running-instance: n/a
 credits: J. de Berardinis (KCL), A. Poltronieri (UniBo)
 related-components:
   - dataset 
     - Isophonics
     - Schubert-Winterreise dataset
     - JAAH
-bibliography: 
-  - "A simple local harmonic similarity function based on shared repeated chord structures" (manuscript in progress)  
+bibliography: A simple local harmonic similarity function based on shared repeated chord structures (manuscript in progress)
 ---
 
 # Local Harmonic Agreement based on Recurrent Patterns (LHARP)
